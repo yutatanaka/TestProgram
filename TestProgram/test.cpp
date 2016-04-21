@@ -1,9 +1,15 @@
 
 #include <stdio.h>
 
-void main()
+void Show()
 {
 	printf("Hello World");
+}
+
+
+void main()
+{
+	Show();
 
 	getchar();
 }
