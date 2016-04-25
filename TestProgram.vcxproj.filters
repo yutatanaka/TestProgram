@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="変数を使うPart2.cpp">
+    <ClCompile Include="キーボードからの入力.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
