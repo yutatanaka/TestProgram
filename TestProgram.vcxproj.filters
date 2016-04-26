@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="キーボードからの入力.cpp">
+    <ClCompile Include="変数の型の大きさを調べる.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
