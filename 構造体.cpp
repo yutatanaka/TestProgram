@@ -8,6 +8,7 @@ struct Character
 {
 	int hp = 5;
 	int attack = 3;
+
 };
 
 // キャラクター構造体の変数を宣言
