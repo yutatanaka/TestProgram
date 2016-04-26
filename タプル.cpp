@@ -1,5 +1,6 @@
 
 // stlの機能
+// 複数の戻り値を返したい時に使用
 
 #include <functional>
 #include <tuple>
@@ -11,6 +12,9 @@ std::tuple<int, char, float> func()
 
 int main()
 {
+	// auto型は初期化しないと使えない
+	auto aa = 0;
+
 	auto n = func();
 	int a = std::get<0>(n);
 	char b = std::get<1>(n);
