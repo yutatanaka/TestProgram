@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="コンスト.cpp">
+    <ClCompile Include="配列.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
