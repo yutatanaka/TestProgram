@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="配列をまとめて初期化.cpp">
+    <ClCompile Include="if文.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
