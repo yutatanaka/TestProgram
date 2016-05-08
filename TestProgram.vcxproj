@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="複雑なif文.cpp" />
+    <ClCompile Include="Switch文.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E4425B51-040A-4CDE-81BA-0F067FFE7254}</ProjectGuid>

@@ -1,0 +1,33 @@
+
+// switch文の使い方
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+void main()
+{
+	int num;
+
+	printf("１～３の値を入力してください：");
+
+	// キーボードから整数を入力
+	scanf("%d", &num);
+	// 入力した値が、正の数かどうかを調べる
+	switch (num)
+	{
+	case 1:
+		printf("one\n");	// numが1だった場合の処理
+		break;
+	case 2:
+		printf("two\n");	// numが2だった場合の処理
+		break;
+	case 3:
+		printf("three\n");	// numが３だった場合の処理
+		break;
+	default:
+		printf("不適切な値です。\n");	// それ以外の値が入力された場合の処理
+		break;
+	}
+
+	getchar();
+}
