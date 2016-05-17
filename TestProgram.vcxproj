@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="プロトタイプ宣言.cpp" />
+    <ClCompile Include="乱数を使ったプログラム.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E4425B51-040A-4CDE-81BA-0F067FFE7254}</ProjectGuid>

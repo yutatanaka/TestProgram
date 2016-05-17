@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="プロトタイプ宣言.cpp">
+    <ClCompile Include="乱数を使ったプログラム.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
