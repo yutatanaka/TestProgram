@@ -3,25 +3,27 @@
 
 #include <stdio.h>
 
-void Hanoi(int n, char *a, char *b, char *c)
+void Hanoi(int diskNumber, char *a, char *b, char *c)
 {
-	if (n >= 2) 
+	if (diskNumber >= 2)
 	{
-		Hanoi(n - 1, a, b, c);
+		Hanoi(diskNumber - 1, a, b, c);
 	}
 
-	printf("%d ‚ð %s ‚©‚ç %s ‚Ö\n", n, a, c);
+	printf("%d ‚ð %s ‚©‚ç %s ‚ÉˆÚ“®\n", diskNumber, a, c);
 
-	if (n >= 2)
+	if (diskNumber >= 2)
 	{
-		Hanoi(n - 1, b, a, c);
+		Hanoi(diskNumber - 1, b, a, c);
 	}
-
 }
 
 
 void main()
 {
+
 	Hanoi(4, "A", "B", "C");
+
 	getchar();
+
 }
