@@ -12,10 +12,15 @@ void Hanoi(int diskNumber, char *a, char *b, char *c)
 
 	printf("%d ‚ð %s ‚©‚ç %s ‚ÉˆÚ“®\n", diskNumber, a, c);
 
+
 	if (diskNumber >= 2)
 	{
 		Hanoi(diskNumber - 1, b, a, c);
+		
 	}
+	printf("%d ‚ð %s ‚©‚ç %s ‚ÉˆÚ“®\n", diskNumber, c, b);
+
+	
 }
 
 
