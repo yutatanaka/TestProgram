@@ -16,7 +16,7 @@ void Hanoi(int diskNumber, char *a, char *b, char *c)
 
 	if (diskNumber >= 2)
 	{
-		Hanoi(diskNumber - 1, b, c, a);
+		Hanoi(diskNumber - 1, c, b, a);
 		
 	}
 	printf("%d ‚ð %s ‚©‚ç %s ‚ÉˆÚ“®\n", diskNumber, c, b);
