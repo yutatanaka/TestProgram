@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hanoi2.cpp">
+    <ClCompile Include="hanoiC言語.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
