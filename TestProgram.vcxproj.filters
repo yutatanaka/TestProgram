@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1-1表示をする_list1-2.cpp">
+    <ClCompile Include="書式文字列と変換指定.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
